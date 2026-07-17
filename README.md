@@ -1,95 +1,104 @@
 # Wazuh SIEM Lab
 
-## Overview
+## Project Overview
 
-This project demonstrates the deployment of a Wazuh SIEM lab to monitor and analyze security events in a virtual environment. The lab was built using Wazuh Manager and a Kali Linux endpoint in VirtualBox.
+This project demonstrates the deployment and configuration of a Wazuh Security Information and Event Management (SIEM) environment for security monitoring and threat detection.
 
-The objective of the project was to understand how a Security Information and Event Management (SIEM) solution collects logs, monitors endpoints, detects security events, and provides centralized visibility through the Wazuh Dashboard.
-
----
-
-## Objectives
-
-- Deploy a Wazuh SIEM lab
-- Register and monitor a Kali Linux endpoint
-- Configure File Integrity Monitoring (FIM)
-- Generate and analyze security alerts
-- Explore compliance dashboards
-- Gain hands-on experience with security monitoring
-
----
-
-## Lab Environment
-
-### Virtualization
-- VirtualBox
-
-### Operating System
-- Kali Linux
-
-### SIEM Platform
-- Wazuh
-
-### Components
-
-- Wazuh Manager
-- Wazuh Dashboard
-- Wazuh Agent
-- Kali Linux Endpoint
-
----
-
-## Features Implemented
-
-- Agent Registration
-- Log Collection
-- File Integrity Monitoring (FIM)
-- Security Event Monitoring
-- Alert Analysis
-- Dashboard Monitoring
-- Compliance Dashboard Exploration
+The lab consists of a Wazuh Manager deployed on a Linux virtual machine and a Kali Linux endpoint configured as a Wazuh Agent. The environment was used to monitor security events, analyze alerts, perform File Integrity Monitoring (FIM), and explore vulnerability detection capabilities.
 
 ---
 
 ## Technologies Used
 
-- Wazuh
+- Wazuh SIEM
 - Kali Linux
-- VirtualBox
 - Linux
-- Security Monitoring
-- Log Analysis
+- VirtualBox
+- File Integrity Monitoring (FIM)
+- Threat Hunting
+- Vulnerability Detection
 
 ---
 
-## Screenshots
+## Lab Environment
 
-Project screenshots are available in the `images` folder.
+- Wazuh Manager
+- Kali Linux Agent
+- VirtualBox
+
+---
+
+## Features Demonstrated
+
+- Wazuh Manager deployment
+- Agent registration
+- Security event monitoring
+- Threat hunting
+- File Integrity Monitoring (FIM)
+- Vulnerability Detection
+- Security Configuration Assessment
+
+---
+
+## Project Screenshots
+
+### 1. Wazuh Login
+
+![Login](images/1.login.png)
+
+---
+
+### 2. Wazuh Manager Running
+
+![Manager](images/2.manager-running.png)
+
+---
+
+### 3. Kali Agent Running
+
+![Agent](images/3.agent-running.png)
+
+---
+
+### 4. Threat Hunting Events
+
+![Threat Hunting](images/4.threat-hunting-events.png)
+
+---
+
+### 5. Security Alerts
+
+![Security Alerts](images/5.security-alerts.jpg)
+
+---
+
+### 6. File Integrity Monitoring
+
+![FIM](images/6.file-integrity-monitoring.png)
+
+---
+
+### 7. Vulnerability Detection & Security Assessment
+
+![Vulnerability](images/7.vulnerability-detection.jpg)
 
 ---
 
 ## Skills Demonstrated
 
-- SIEM Fundamentals
 - Security Monitoring
-- Log Analysis
+- Threat Detection
+- SIEM Administration
 - Linux Administration
-- Endpoint Monitoring
+- Incident Investigation
 - File Integrity Monitoring
-- Threat Detection Fundamentals
+- Vulnerability Assessment
+- Log Analysis
 
 ---
 
-## Learning Outcomes
+## Author
 
-Through this project, I gained practical experience in deploying a SIEM environment, monitoring endpoints, analyzing security events, and understanding how centralized monitoring supports Security Operations Center (SOC) activities.
+**Sundhus Haneef**
 
----
-
-## Future Improvements
-
-- Monitor additional endpoints
-- Integrate Windows endpoint monitoring
-- Configure custom detection rules
-- Explore Sigma rule integration
-- Expand alert analysis scenarios
+Aspiring SOC Analyst | EC-Council Certified SOC Analyst (CSA) | Certified IT Infrastructure & Cyber SOC Analyst (CICSA v3)
