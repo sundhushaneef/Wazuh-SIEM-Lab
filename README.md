@@ -8,6 +8,14 @@ The lab consists of a Wazuh Manager deployed on a Linux virtual machine and a Ka
 
 ---
 
+## 🏗️ Lab Architecture
+
+This lab was built using Oracle VirtualBox with a Wazuh Manager and a Kali Linux endpoint running the Wazuh Agent. Security events generated on the endpoint are collected, analyzed, and visualized through the Wazuh Dashboard.
+
+<p align="center">
+  <img src="images/architecture_diagram.png" alt="Wazuh SIEM Lab Architecture" width="900">
+</p>
+
 ## Technologies Used
 
 - Wazuh SIEM
